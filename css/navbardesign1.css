@@ -1,0 +1,97 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url(../Images/perspective-exterior-nobody-empty-box.jpg);
+    
+  
+    
+    
+
+}
+.sidebar-container{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    background: linear-gradient(to bottom left, #33ccff 7%, #003300 98%);
+    line-height: 50px;
+    
+    
+}
+ul li  {
+   list-style-type: none;
+   position: relative;
+   left: -40px;
+
+   
+   
+    
+}
+li  a {
+    text-decoration: none;
+    color: black;
+   
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    position: relative;
+    
+    
+}
+span{
+    padding: 16px 8px 6px 6px;
+    font-size: 15px;
+    display: block;
+    color:black;
+    margin-top: -20px;
+    text-align: center;
+   
+
+    
+}
+ul li.active{
+    background-color: rgb(6, 119, 128);
+    width: 200px;
+}
+ul li a{
+    position: relative;
+    padding-left: 20px;
+    
+    
+    
+    
+   
+   
+}
+ul li ul{
+    position: absolute;
+    top:0;
+    left: 200px;
+    display: none;
+    padding-left: 0px;
+    font-size: 20px;
+    line-height: 50px;
+    
+    
+}
+ul li:hover>ul{
+    display: block;
+    background: linear-gradient(to bottom left, #33ccff 7%, #003300 98%);
+   width: 160px;
+   padding-left: 40px;
+}
+
+div ul li:hover:not(.active){
+    background-color:rgb(13, 221, 228);
+    width: 200px;
+    
+    
+    
+}
+
+ul li a:hover{
+    color: white;
+    
+}
+
+   
+    

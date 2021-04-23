@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#ededed;
+    height: 100vh;
+}
+.dot {
+    width: 55%;
+    height:100%;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #422419 74%);
+    border-bottom-right-radius: 55% 110%;
+    position: fixed;
+    
+}
+.container{
+   /*background-color: honeydew;*/
+    height: 250px;
+    width: 350px;
+    margin-top: 100px;
+    position:fixed;
+    margin-left: 100px;
+}
+input{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    width: 80%;
+    border-radius: 50px;
+    height:40px;
+    border:none;
+   
+}
+h2{
+    font-size: 35px;
+    color: honeydew;
+    text-align: center;
+}
+.btn{
+    width: 30%;
+    border-radius: 30px;
+    height:40px;
+    background-color:#422419;
+    color: honeydew;
+    margin-left:  50px;
+    border:thick 4px solid;
+    outline: 0;
+
+        
+}
+.Cancelbtn{
+    position:relative;
+    width: 30%;
+    border-radius: 30px;
+    height:40px;
+    background-color:#a44200;
+    color: honeydew;
+    margin-left:  40px;
+    border:thick 4px solid;
+    outline: 0;
+}
+input:focus{
+    width: 100%;
+    text-align: center;
+    outline: 0;
+    transition: 0.8s;
+    border-bottom:#a44200 4px solid;
+    border-top: burlywood 4px solid;
+    border-left:tan 4px solid;
+    border-right:#a44200 4px solid;
+
+}
+h4{
+    position: absolute;
+    top: 110px;
+    left: 1000px;
+    text-align: center;
+    margin: 30px 30px;
+}
+.signUpbtn{
+    position: absolute;
+    top: 160px;
+    left: 1000px;
+    text-align: center;
+    border-radius: 30px;
+    height: 40px;
+    width: 150px;
+    outline: 0;
+    background-color:#422419;
+    margin: 30px 30px;
+    color: honeydew;
+   
+    
+
+}
