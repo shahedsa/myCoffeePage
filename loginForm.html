@@ -22,7 +22,7 @@
         <h4>Not a member?<br> You can sign up here</h4>
         <button id="signUpbtn" onclick="signupBtnClick()">Click here to Sign Up</button>
         <div id="signup-box">
-            <form class="modal-dialog">
+            <form class="modal-dialog" novalidate>
                 <h1>Sign Up</h1>
                 <p>Please fill all required fields</p>
                 
@@ -52,7 +52,7 @@
         btnclick.addEventListener("click", myFunction);
         function myFunction(){
             document.getElementById('signup-box').style.display='block';
-            btnclick.style.display='none';
+            btnclick.style.zIndex='-1';
         }
 
         /*var btncancel =document.getElementById('signup-box');
